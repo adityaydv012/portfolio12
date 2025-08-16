@@ -40,12 +40,10 @@ export default function Navbar() {
   };
 
   return (
-    <header
-      className={`w-full fixed top-0 justify-center items-center z-50 transition-all duration-300 ${
-        scrolled
-          ? 'bg-[#1F2A5A]/20 backdrop-blur-md shadow-md'
-          : 'bg-transparent'
-      } text-white`}
+      <header
+    className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
+      scrolled ? "bg-[#1F2A5A]/20 backdrop-blur-md shadow-md" : "bg-transparent"
+    } text-white`}
     >
       <div className="max-w-[1200px] mx-auto px-4 md:px-8 py-4 flex items-center justify-between">
         {/* Left: Logo */}
