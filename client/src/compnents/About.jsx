@@ -77,7 +77,7 @@ const About = () => {
               alt="Addity Pratap Singh"
               className="w-16 h-16 rounded-full mb-3"
             />
-            <h3 className="text-lg font-bold">Addity Pratap Singh</h3>
+            <h3 className="text-lg font-bold">Aditya Pratap Singh</h3>
             <p className="text-sm">I am a professional full stack developer</p>
             <div className="flex justify-around w-full mt-4 text-sm font-semibold">
               <div>
